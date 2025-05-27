@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">About PrepWise Mock Interview App</h1>
+        <h1 className="text-4xl font-bold mb-4">About PrepView Mock Interview App</h1>
         <p className="text-xl text-muted-foreground">Empowering developers to ace their technical interviews</p>
       </div>
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent>
             <p className="text-muted-foreground">
-              At PrepWise Mock Interview App, we're dedicated to helping aspiring and experienced developers prepare for technical interviews through realistic mock interviews and personalized feedback.
+              At PrepView Mock Interview App, we're dedicated to helping aspiring and experienced developers prepare for technical interviews through realistic mock interviews and personalized feedback.
             </p>
           </CardContent>
         </Card>
@@ -62,7 +62,7 @@ export default function AboutPage() {
         <CardContent>
           <div className="prose max-w-none text-muted-foreground">
             <p className="mb-4">
-              PrepWise was born out of our own struggles with technical interviews. We understand how daunting the interview process can be, especially when you're trying to break into the tech industry or level up your career.
+              PrepView was born out of our own struggles with technical interviews. We understand how daunting the interview process can be, especially when you're trying to break into the tech industry or level up your career.
             </p>
             <p>
               Our platform is designed by developers, for developers, with a focus on providing a realistic interview experience and actionable feedback to help you improve.

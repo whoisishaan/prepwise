@@ -17,12 +17,15 @@ const Layout = async ({ children }: { children: ReactNode }) => {
       <nav className="flex justify-between items-center p-4 border-b">
         <div className="flex items-center">
           <Link href="/" className="flex items-center gap-2">
-            <Image src="/logo.svg" alt="MockMate Logo" width={38} height={32} />
-            <h2 className="text-primary-100">PrepWise</h2>
+            <Image src="/logo.png" alt="MockMate Logo" width={38} height={32} />
+            <h2 className="text-primary-100">PrepView</h2>
           </Link>
         </div>
         <div className="flex items-center gap-4">
           <ContactDropdown />
+          <a href="https://thejobhunter.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <Button variant="ghost">Apply for jobs</Button>
+          </a>
           <Link href="/about">
             <Button variant="ghost">About Us</Button>
           </Link>
